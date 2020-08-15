@@ -22,5 +22,5 @@ for(i in 3:9){
 ###########################################################################
 #Q2
 png(filename = "plot2.png",width = 480, height = 480)
-with(data2, plot(time2, GlobalActive, type = 'l', ylab = "Global Active Power (kilowatts)"))
+with(data2, plot(time2, GlobalActive, type = 'l',xlab = "", ylab = "Global Active Power (kilowatts)"))
 dev.off()
